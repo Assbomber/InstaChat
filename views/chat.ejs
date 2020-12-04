@@ -3,8 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>InstaChat Screen</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script defer src="/script.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      const username="<%=username%>";
+      const pageName="<%=pageName%>";
+    </script>
   </head>
   <body>
-    Chat Screen Loaded
+    <ul id="messages">
+
+    </ul>
+    <form class="send_message" >
+      <input id="messageBox" type="text" name="messageBox" required>
+      <input type="submit" name="Send" value="Send">
+    </form>
   </body>
 </html>

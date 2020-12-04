@@ -1,0 +1,13 @@
+.send_message{
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+}
+input[type=text]{
+  width: 89%;
+  height: 40px;
+}
+input[type=submit]{
+  width: 9%;
+  height: 47px;
+}
